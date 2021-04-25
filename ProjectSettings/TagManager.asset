@@ -31,7 +31,7 @@ TagManager:
   - PlayerSprite
   - Enemy
   - Deactivate
-  - 
+  - Touchable
   - 
   - 
   - 
