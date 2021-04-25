@@ -36,7 +36,10 @@ public class CameraScript : MonoBehaviour
 
     public void Pause()
     {
-        Time.timeScale = 0;
-        PauseScene.SetActive(true);
+        if (!SceneLoader.isLoading)
+        {
+            Time.timeScale = 0;
+            PauseScene.SetActive(true);
+        }
     }
 }

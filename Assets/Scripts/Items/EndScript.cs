@@ -13,8 +13,13 @@ public class EndScript : MonoBehaviour
 
     void Start()
     {
-        initialCount = GameObject.FindGameObjectsWithTag("Enemy").Length;   
-    }
+        initialCount = GameObject.FindGameObjectsWithTag("Enemy").Length;
+        if (initialCount == 0)
+        {
+            canEnd = true;
+            Light.color = new Color(0.6f, 0.6f, 0.6f);
+        }
+        }
 
     void FixedUpdate()
     {
@@ -46,6 +51,6 @@ public class EndScript : MonoBehaviour
     public void NextScene()
     {
         if(canEnd)
-       StartCoroutine(SceneLoader.GetSceneLoader().LoadWithTransitionScene(SceneName,LoadingScene));
+        StartCoroutine(SceneLoader.GetSceneLoader().LoadWithTransitionScene(SceneName,LoadingScene));
     }
 }

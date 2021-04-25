@@ -33,7 +33,7 @@ public class PlayerController : MonoBehaviour
     {
         axisX = Input.GetAxis("Horizontal");
         PlayerAnimator.SetFloat("Speed",axisX);
-        isJump = CanJump() && Input.GetKeyDown(KeyCode.Space);
+        isJump = CanJump() && Input.GetKey(KeyCode.Space);
         if (axisX <= -0.01) dir = -1;
         if (axisX >= 0.01) dir = 1;
         if(IsDead())LightControl.Die();
