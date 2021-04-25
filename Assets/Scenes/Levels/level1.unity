@@ -8681,7 +8681,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: But the unknow is more scarier
+  m_text: But the unknow is more scary
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b6941ef51e176e2489af0406e7c1ec27, type: 2}
   m_sharedMaterial: {fileID: 4483225098166301776, guid: b6941ef51e176e2489af0406e7c1ec27,
