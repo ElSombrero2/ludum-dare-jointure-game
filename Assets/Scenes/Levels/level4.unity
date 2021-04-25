@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1509,7 +1509,7 @@ TilemapCollider2D:
   m_GameObject: {fileID: 705173576}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: d3b992878e563ef448300c5c19c6cde8, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -8252,6 +8252,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: End
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572294737201563325, guid: 32a62b044f791894c86fe40388c11fd5,
+        type: 3}
+      propertyPath: SceneName
+      value: level5
       objectReference: {fileID: 0}
     - target: {fileID: 5572294737201563325, guid: 32a62b044f791894c86fe40388c11fd5,
         type: 3}

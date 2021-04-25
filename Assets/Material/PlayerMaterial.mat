@@ -35,4 +35,4 @@ Material:
     m_Floats: []
     m_Colors:
     - Color_255F35DE: {r: 14.754423, g: 0.84973115, b: 2.70369, a: 0}
-    - _Color: {r: 1, g: 2, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 2, a: 1}

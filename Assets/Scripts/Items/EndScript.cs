@@ -10,6 +10,7 @@ public class EndScript : MonoBehaviour
     [SerializeField] private Light2D Light;
     private bool canEnd = false;
     private int initialCount=0;
+    [SerializeField] private bool BonusPath = false;
 
     void Start()
     {
@@ -50,7 +51,7 @@ public class EndScript : MonoBehaviour
 
     public void NextScene()
     {
-        if(canEnd)
+        if(canEnd || BonusPath)
         StartCoroutine(SceneLoader.GetSceneLoader().LoadWithTransitionScene(SceneName,LoadingScene));
     }
 }

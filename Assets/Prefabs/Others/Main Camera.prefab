@@ -180,7 +180,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Target: {fileID: 0}
-  Offset: 0.5
+  Offset: 0.31
   Framerate: 60
   PauseScene: {fileID: 0}
   Min: {x: -127, y: -2}

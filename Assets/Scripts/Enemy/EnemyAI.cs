@@ -13,6 +13,7 @@ public class EnemyAI : MonoBehaviour
     [SerializeField] private Light2D Light;
     [SerializeField] private GameObject Parent;
     [SerializeField] private bool mustDie;
+    [SerializeField] private AudioSource Audio;
     private void FixedUpdate()
     {
         var follow = Script.GetFollowObject();
@@ -34,6 +35,7 @@ public class EnemyAI : MonoBehaviour
 
     public void TakeDamage()
     {
+        Audio.Play();
         Light.intensity -= 0.2f;
         if (Light.intensity <= 0) Destroy(Parent);
     }

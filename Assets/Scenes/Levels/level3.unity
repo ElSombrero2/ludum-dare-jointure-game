@@ -8709,6 +8709,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5572294737201563325, guid: 32a62b044f791894c86fe40388c11fd5,
         type: 3}
+      propertyPath: SceneName
+      value: level4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572294737201563325, guid: 32a62b044f791894c86fe40388c11fd5,
+        type: 3}
       propertyPath: LoadingScene
       value: 
       objectReference: {fileID: 946607609}
